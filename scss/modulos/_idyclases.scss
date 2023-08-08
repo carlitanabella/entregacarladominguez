@@ -1,0 +1,111 @@
+.imagenav {
+    display: inline;
+    width: 350px;
+}
+#textnav {
+    font-family: JUST;
+    color: $colorletralight;
+    text-decoration: none;
+    margin: 5px;
+
+
+}
+#textfooter {
+    font-family: JUST;
+    color: $colorletralight;
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+
+
+}
+#textcontacto {
+    font-family: $fontjust;
+    color: $negronav;
+}
+
+.imgbienvenida {
+
+    width: 100%;
+}
+.cajamain {
+    height: 100px;
+    vertical-align: middle;
+    background-color: $colorgreenaqua;
+    margin: auto;
+
+}
+.textend {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: end;
+    vertical-align: middle;
+    color: $negronav;
+
+
+
+}
+
+.textcenterbebas {
+    font-family: BEBAS;
+    text-align: center;
+    color: $negronav;
+
+}
+.textcenterbebaslight {
+    font-family: BEBAS;
+    text-align: center;
+    color: $colorletralight;
+}
+
+
+.tarjslogan {
+    height: 100px;
+}
+.imgcarousel {
+    height: 100%;
+    align-items: center;
+    background-color: $colorgreenaqua;
+    justify-content: center;
+}
+.cajaqs {
+
+    background-color: $colorgris;
+
+}
+.textcouriercenter {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+.textcenterjustlight {
+    font-family: $fontjust;
+    text-decoration: none;
+    color: $colorletralight;
+    text-align: center;
+
+}
+#iconosredes {
+    color: $colorletralight;
+    background-color: $negronav;
+    font-size: 40px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+#iconosredes:hover {
+    background-color: $colorletralight;
+
+}
+#imgfooter {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgfooter2 {
+    width: 300px;
+}

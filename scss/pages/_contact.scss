@@ -1,0 +1,30 @@
+#bodycontact {
+    height: 100vh;
+}
+
+.bgcontact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-inline-start: 5px;
+    background-image: url(../assets/img/contactimage.jpg);
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.imputcontact {
+    border-radius: 5px;
+
+}
+.botoncontact {
+    width: 200px; 
+    height: 40px;
+    margin: 30px 30px 30px 30px;
+    background-color: $colorletralight;
+    text-decoration-color: $negronav;
+ 
+}
+

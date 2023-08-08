@@ -1,0 +1,244 @@
+@font-face {
+  font-family: JUST;
+  src: url(../assets/font/static/Jost-Black.ttf);
+}
+@font-face {
+  font-family: BEBAS;
+  src: url(../assets/font/BebasNeue-Regular.ttf);
+}
+body {
+  height: 100vh;
+}
+
+nav {
+  background-color: #000000;
+}
+
+.footer {
+  font-family: JUST;
+  background-color: #000000;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divtextfooter {
+  height: 80px;
+  text-align: center;
+  color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.iconsredesdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+div a {
+  text-decoration-color: #545454;
+}
+
+.imagenav {
+  display: inline;
+  width: 350px;
+}
+
+#textnav {
+  font-family: JUST;
+  color: #f0f8ff;
+  text-decoration: none;
+  margin: 5px;
+}
+
+#textfooter {
+  font-family: JUST;
+  color: #f0f8ff;
+  text-decoration: none;
+  margin: 5px;
+  text-align: center;
+}
+
+#textcontacto {
+  font-family: JUST;
+  color: #000000;
+}
+
+.imgbienvenida {
+  width: 100%;
+}
+
+.cajamain {
+  height: 100px;
+  vertical-align: middle;
+  background-color: #7ebbb7;
+  margin: auto;
+}
+
+.textend {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end;
+  vertical-align: middle;
+  color: #000000;
+}
+
+.textcenterbebas {
+  font-family: BEBAS;
+  text-align: center;
+  color: #000000;
+}
+
+.textcenterbebaslight {
+  font-family: BEBAS;
+  text-align: center;
+  color: #f0f8ff;
+}
+
+.tarjslogan {
+  height: 100px;
+}
+
+.imgcarousel {
+  height: 100%;
+  align-items: center;
+  background-color: #7ebbb7;
+  justify-content: center;
+}
+
+.cajaqs {
+  background-color: #545454;
+}
+
+.textcouriercenter {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.textcenterjustlight {
+  font-family: JUST;
+  text-decoration: none;
+  color: #f0f8ff;
+  text-align: center;
+}
+
+#iconosredes {
+  color: #f0f8ff;
+  background-color: #000000;
+  font-size: 40px;
+  margin: 0px 20px 0px 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+#iconosredes:hover {
+  background-color: #f0f8ff;
+}
+
+#imgfooter {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imgfooter2 {
+  width: 300px;
+}
+
+@media (min-width: 1440px) {
+  #textnav {
+    font-size: 1.7rem;
+  }
+  #textfooter {
+    font-size: 1.5rem;
+  }
+  .textcenterbebas {
+    font-size: 2.5rem;
+  }
+  .textcouriercenter {
+    font-size: 1.5rem;
+  }
+  .imputcontact {
+    width: 800px;
+  }
+  .textcenterjustlight {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1440px) {
+  #textnav {
+    font-size: 1.5rem;
+  }
+  #textfooter {
+    font-size: 1rem;
+  }
+  .textcenterbebas {
+    font-size: 2.2rem;
+  }
+  .textcouriercenter {
+    font-size: 1.2rem;
+  }
+  .imputcontact {
+    width: 600px;
+  }
+  .textcenterjustlight {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 992px) {
+  #textnav {
+    font-size: 2rem;
+  }
+  .textcenterbebas {
+    font-size: 2rem;
+  }
+  .textcouriercenter {
+    font-size: 1.6rem;
+  }
+  .imputcontact {
+    width: 400px;
+  }
+  .textcenterjustlight {
+    font-size: 2rem;
+  }
+}
+#bodycontact {
+  height: 100vh;
+}
+
+.bgcontact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-inline-start: 5px;
+  background-image: url(../assets/img/contactimage.jpg);
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.imputcontact {
+  border-radius: 5px;
+}
+
+.botoncontact {
+  width: 200px;
+  height: 40px;
+  margin: 30px 30px 30px 30px;
+  background-color: #f0f8ff;
+  text-decoration-color: #000000;
+}
+
+/*# sourceMappingURL=styles.css.map */

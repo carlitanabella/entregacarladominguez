@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+}
+nav {
+    background-color: $negronav;
+
+}
+
+.footer {
+    font-family: JUST;
+    background-color: $negronav;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.divtextfooter {
+
+    height: 80px;
+    text-align: center;
+    color: $colorletralight;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+// .footerdiv {
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+
+    
+
+
+
+// }
+.iconsredesdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+ }
+li {
+    list-style: none;
+
+    text-decoration: none;
+ }
+div a {
+    text-decoration-color: $colorgris;
+}
