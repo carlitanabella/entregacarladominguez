@@ -60,6 +60,10 @@ div a {
   margin: 5px;
 }
 
+.botonnav {
+  background-color: #1b1b1b;
+}
+
 #textfooter {
   font-family: JUST;
   color: #f0f8ff;
