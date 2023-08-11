@@ -9,7 +9,7 @@
     align-items: center;
     margin-top: 30px;
     padding-inline-start: 5px;
-    background-image: url(../assets/img/contactimage.jpg);
+    background-image: url(../assets/img/contactimage.webp);
     height: 500px;
     width: 100%;
     text-align: center;
@@ -25,6 +25,39 @@
     margin: 30px 30px 30px 30px;
     background-color: $colorletralight;
     text-decoration-color: $negronav;
+    border-radius: 5px;
  
 }
+.divcontact  {
 
+    background-color: $colorgris;
+    height: 360px;
+    margin: 20px 0px -300px 0px;
+
+}
+.mapcontact {
+    margin-bottom: 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: $negronav;
+
+}
+
+.btncont {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    background-image: -webkit-linear-gradient(top, $colorgris, $colorgrisoscuro);
+    font-family: $fontjust;
+    text-decoration: none;
+    text-decoration-color: $colorletralight;
+    color: $colorletralight;
+    padding: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+
+ 
+  
+ 
+}

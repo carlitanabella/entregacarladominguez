@@ -1,0 +1,40 @@
+.bgservicios {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-inline-start: 5px;
+    background-image: url(../assets/img/imgs.webp);
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+#listserv {
+    text-decoration: none;
+    list-style: none;
+    transition: font-size 0.5s linear;
+}
+#listserv:hover {
+    font-size: 3.5rem;
+}
+#serviciosmain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#btnser {
+    font-family: $fontjust;
+    // background-color: $colorgrisoscuro;
+    background-image: -webkit-linear-gradient(top, $colorgris, $colorgrisoscuro);
+    color: $colorletralight;
+    border: $colorletralight;
+    transition: scale 3s linear;
+}
+#btnser:hover {
+    transform: scale(1, 1.2);
+}
+.divser {
+    margin-top: 30px;
+}

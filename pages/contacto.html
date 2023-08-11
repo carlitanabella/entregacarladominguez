@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Document</title>
 </head>
 <body id="bodycontact">
-  <nav class="bg-black navbar navbar-expand-lg bg-body-black">
+  <a name="nav"></a>
+  <nav class="navbar navbar-expand-lg textnav">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html"><img class="image-fluid d-inlide-block " width="300"  id="logo" src="../assets/img/Agente inmobiliario.png"  alt="LOGO"></a>
+      <a  class="navbar-brand" href="../index.html"><img class="imagenav" id="logo" src="../assets/img/Agente inmobiliario.webp"  alt="LOGO"></a>
       
-      <button class="navbar-toggler btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler btn botonnav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button button class="navbar-toggler navbar-toggler-left bg-dark">
-      <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNavDropdown">
-        <div class="navbar-nav">
-          <a id="textnav" class="nav-link active text-light" aria-current="page" href="../pages/quienessomos.html">¿QUIENES SOMOS?</a>
-          <a id="textnav" class="nav-link text-light" href="../pages/servicios.html">SERVICIOS</a>
-          <a id="textnav" class="nav-link text-light" href="../pages/obrasyproyectos.html">OBRAS Y PROYECTOS</a>
-          <a id="textnav" class="nav-link active text-light" aria-current="page" href="../pages/contacto.html">CONTACTO</a>
+      </button button class="navbar-toggler navbar-toggler-left botonnav">
+      <div class="collapse navbar-collapse justify-content-end text-center " id="navbarNavDropdown">
+        <div class="navbar-nav ">
+          <a id="textnav" class="nav-link active" aria-current="page" href="../pages/quienessomos.html">¿QUIENES SOMOS?</a>
+          <a id="textnav" class="nav-link active" href="../pages/servicios.html">SERVICIOS</a>
+          <a id="textnav" class="nav-link active" href="../pages/obrasyproyectos.html">OBRAS Y PROYECTOS</a>
+          <a id="textnav" class="nav-link active" aria-current="page" href="../pages/contacto.html">CONTACTO</a>
         </div>
       </div>
     </div>
   </nav>
-    <!-- <header class="container-fluid bg-black">
+
              
 
-    </header> -->
+    <!-- </header> -->
 
     <main id="maincontact">
 
@@ -39,7 +41,7 @@
 
 
         <form class="bgcontact col-12" id="contact" method="post" enctype="text/plain">
-           <div>
+           <div class="container-fluid">
             <div> <label class="col-12 fs-3 mt-2"  id="textcontacto" for="nombre">INGRESE SU NOMBRE:</label>
                 <input class="textcouriercenter imputcontact" type="text" name=" NOMBRE " id="nombre" placeholder=" no obligatorio">
             </div>
@@ -54,9 +56,9 @@
                 <input class="botoncontact" type="submit" value="ENVIAR">
             </div>
     
-            <div id="textcontacto">
-            <a class="textcenterjustlight" href="../index.html" >VOLVER</a> 
-            </div>
+           
+            <a class="btncont" href="../index.html" >VOLVER</a> 
+            
 
           </div>
                 
@@ -64,55 +66,75 @@
       
         </form>
 
-        <section class="textcenterbebas mt-3">
+        <section class="textcenterbebaslight divcontact">
           <p> DONDE NOS ENCONTRAMOS </p>
         </section>
 
-        <section class="d-flex justify-content-center">
-          <iframe src="https://www.google.com.ar/maps/place/Soldado+de+la+Independencia+1364,+C1426+CABA/@-34.5677265,-58.4515826,15z/data=!4m6!3m5!1s0x95bcb5c840f6927d:0x1bea9d7e39dbdb46!8m2!3d-34.5633921!4d-58.4416504!16s%2Fg%2F11c4yf8h7f?entry=ttu" frameborder="0"></iframe>
+        <section class="d-flex justify-content-center mapcontact">
+          <iframe class="mapcontact" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13141.760812190934!2d-58.4515826!3d-34.5677265!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c840f6927d%3A0x1bea9d7e39dbdb46!2sSoldado%20de%20la%20Independencia%201364%2C%20C1426%20CABA!5e0!3m2!1ses-419!2sar!4v1691710087850!5m2!1ses-419!2sar" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </section>
 
     </main>
     
     
-    <footer class=" footer">
-        <div class="container-fluid">
-          
-          <div class="row d-flex justify-content-center align-items-center">
-              <div class="col-lg-3" id="imgfooter">
-                <img class="img-fluid " width="300" src="../assets/img/Agente inmobiliario (2).png" alt="" >
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="container-fluid">
+
+        <!-- logo-->
+        
+        <div class="footerdiv row d-flex justify-content-center align-items-center">
+            <div class="col-lg-3 col-md-6 col-sm-12" id="imgfooter">
+              <a href="#nav"><img id="imgfooter2" class="" src="../assets/img/Agente inmobiliario (2).webp" alt="logocasa" ></a>
+            </div>
+            <!-- direccion y contacto-->
+            <div class="col-lg-3 col-md-6 col-sm-12" id="textfooter">
+                <a id="textfooter" href="./pages/contacto.html"><ul id="textfooter">            
+                <li>Location:</li>
+                <li>Soldado de la independencia 1364</li>
+                <li>C.A.B.A. - Bs. As. </li>
+                </ul>
+              </a>
+            </div>
+           
+            <div class="col-lg-3 col-md-6 col-sm-12" >
+              <ul id="textfooter"class="text-uppercase mt-3 ">
+                <li><i class="itel bi bi-telephone"></i>Teléfono</li>
+                <li>(54-11) xxxx - 0434</li>
+                <li><i class="imail bi bi-envelope"></i>Email</li>
+                <li>info@xxxx.com.ar</li>
+              </ul>
+            </div>
+         
+
+    <!-- redes sociales-->
+      
+              <div class="divtextfooter">
+                <p id="textfooter">CONTACTANOS A TRAVES DE NUESTRAS REDES:</p>
+
               </div>
-               <!-- direccion y contacto-->
-                     <div id="textfooter" class="col-lg-3">
-                      <ul class="list-inline text-uppercase mt-3">            
-                      <li>Location:</li>
-                      <li>Soldado de la independencia 1364</li>
-                      <li>C.A.B.A. - Bs. As. </li>
-                      </ul>
-                  </div>
-                 
-                  <div id="textfooter" class="col-lg-3" >
-                    <ul class="list-inline text-uppercase mt-3 ">
-                      <li>Teléfono</li>
-                      <li>(54-11) xxxx - 0434</li>
-                      <li>Email</li>
-                      <li>info@xxxx.com.ar</li>
-                    </ul>
-                  </div>
-      
-                <div  class="col-lg-3 col-sm-6" id="imgfooter">
-                  <a href="https://www.instagram.com/pilar.inmobiliaria.mdz/"> <img class="img-fluid " width="150" height="150" src="../assets/img/2.png" alt=""></a>
-                  <a href="https://www.facebook.com/Pilar.inmobiliaria.mdz"> <img class="img-fluid weith-1" width="150" height="150" src="../assets/img/1.png" alt=""></a>
+                <div  class="col-lg-3 col-md-6 col-sm-12 iconsredesdiv">
+                <!-- <div id="iconsredesdiv2"> -->
+                  
+                  <div id="iconos"><a href="https://www.instagram.com/pilar.inmobiliaria.mdz/"> <i id="iconosredes" class="bi bi-instagram iconosredes"></i></a></div>
+                  <div id="iconos"><a href="https://www.facebook.com/Pilar.inmobiliaria.mdz"> <i id="iconosredes" class="bi bi-facebook"></i></a></div>
+                  <div id="iconos"><a href="https://wa.me/5492617222044"> <i id="iconosredes" class="bi bi-whatsapp"></i></a></div>
+                  <div id="iconos"><a href="https://m.me/Pilar.inmobiliaria.mdz"> <i id="iconosredes" class="bi bi-messenger"></i></a></div>
+                                         
                 </div>
-          </div>
-          
-        </div>
-  
-      </footer>
-      
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    
+
+                <div id="divder" class="textcouriercenterlight">
+                  <p  >Todos los derechos reservados.</p>
+                </div>
+                
+        
+      </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 </body>
 </html>
 
